@@ -1,0 +1,4 @@
+baseURL = "https://jexsaga.github.io/NinaAndJess_XRBlog/"
+languageCode = "en-us"
+title = "Nina and Jess XR Blog"
+theme = "ananke"
