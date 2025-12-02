@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/NinaAndJess_XRBlog/posts/my-first-post/</loc>
-    <lastmod>2025-12-02T14:20:44+01:00</lastmod>
+    <loc>https://jexsaga.github.io/NinaAndJess_XRBlog/posts/roll-a-ball/</loc>
+    <lastmod>2025-12-02T11:00:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/NinaAndJess_XRBlog/</loc>
-    <lastmod>2025-12-02T14:20:44+01:00</lastmod>
+    <loc>https://jexsaga.github.io/NinaAndJess_XRBlog/</loc>
+    <lastmod>2025-12-02T11:00:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/NinaAndJess_XRBlog/posts/</loc>
-    <lastmod>2025-12-02T14:20:44+01:00</lastmod>
+    <loc>https://jexsaga.github.io/NinaAndJess_XRBlog/posts/</loc>
+    <lastmod>2025-12-02T11:00:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/NinaAndJess_XRBlog/categories/</loc>
+    <loc>https://jexsaga.github.io/NinaAndJess_XRBlog/posts/intro2unity/</loc>
+    <lastmod>2025-11-25T11:00:44+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/NinaAndJess_XRBlog/tags/</loc>
+    <loc>https://jexsaga.github.io/NinaAndJess_XRBlog/categories/</loc>
+  </url><url>
+    <loc>https://jexsaga.github.io/NinaAndJess_XRBlog/tags/</loc>
   </url>
 </urlset>
