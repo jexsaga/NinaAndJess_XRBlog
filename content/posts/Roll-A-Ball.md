@@ -30,12 +30,27 @@ After, we configured the play area for the game with walls.
 [SETTING UP THE PLAY AREA Screenshot](/NinaAndJess_XRBlog/images/rollaball4.mp4)
 
 **5 CREATING COLLECTIBLES**
+-
+To create collectibles, we first created a PickUp GameObject for the player to collect, then wrote a script to rotate the collectibles. We used prefab to create more collectibles and make the modifications of them easier.
 
+[CREATING COLLECTIBLES Screenshot](/NinaAndJess_XRBlog/images/rollaball6.mp4)
 
 
 **6 DETECTING COLLISIONS WITH COLLECTIBLES**
+-
+We of course needed to make sure the collectibles were actualy collectables, so we revised our PlayerColtreoller script to make the collectibles disappear when they collide with the Player sphere. 
+We used tags and conditionnal statements to make sure they're the only things that disappear, then we set the Prefab PickUp Collider as a trigger and add a RigidBody component to make the collectibles work properly.
+
+[DETECTING COLLISIONS WITH COLLECTIBLES Screenshot](/NinaAndJess_XRBlog/images/rollaball9.mp4)
+
 
 **7 DISPLAYING SCORE AND TEXT**
+-
+To make the game understandable and feel like a game, we added a counter tu score the value of collected PickUp GameObjects.
+With that, we created and configured UI Text Element to display the count value and an end of game message.
+
+[DETECTING COLLISIONS WITH COLLECTIBLES Screenshot](/NinaAndJess_XRBlog/images/rollaball10.mp4)
 
 **8 ADDING AI NAVIGATION**
+-
 
