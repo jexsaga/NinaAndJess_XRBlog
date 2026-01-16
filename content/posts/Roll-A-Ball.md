@@ -54,7 +54,7 @@ With that, we created and configured UI Text Element to display the count value 
 -
 At the end, we implemented a NavMesh for AI-based enemy navigation, added static and dynamic obstacles to challenge the player, and code win and lose conditions using Unity scripting. 
 
-We encountered some problems during the initial implementation, as the enemy would pass through walls and remain at distance from the player while continuing to follow them. We tried implementing RigidBody, which helped but didn't solve the problem. So we followed the tutorial entirely again, and it worked. We assumed that the connexion between the enemy and some properties was not configured right.
+We encountered some problems during the initial implementation, as the enemy would pass through walls and remain at a distance from the player while continuing to follow them. We tried implementing RigidBody, which helped but didn't solve the problem. So we started this section over again, and it worked. We assumed that the connection between the enemy and some property was not configured right.
 
 [ADDING AI NAVIGATION Screenshot](/NinaAndJess_XRBlog/images/rollballlafinnnnn.mp4)
 
