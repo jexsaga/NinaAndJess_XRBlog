@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/NinaAndJess_XRBlog/posts/roll-a-ball/</loc>
-    <lastmod>2025-12-02T11:00:44+01:00</lastmod>
+    <loc>http://localhost:1313/NinaAndJess_XRBlog/posts/locomotiontechniques/</loc>
+    <lastmod>2026-01-16T15:46:12+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/NinaAndJess_XRBlog/</loc>
-    <lastmod>2025-12-02T11:00:44+01:00</lastmod>
+    <lastmod>2026-01-16T15:46:12+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/NinaAndJess_XRBlog/posts/</loc>
+    <lastmod>2026-01-16T15:46:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/NinaAndJess_XRBlog/posts/roll-a-ball/</loc>
     <lastmod>2025-12-02T11:00:44+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/NinaAndJess_XRBlog/posts/intro2unity/</loc>

@@ -1,9 +1,9 @@
 +++
-date = '2025-12-25T11:00:44+01:00'
-draft = false
-title = 'Homework 1 : Locomotions Techniques Slides
+date = '2026-01-16T15:46:12+01:00'
+draft = true
+title = 'Homework 1 : Locomotion Techniques'
 +++
 
-![Slide1](/NinaAndJess_XRBlog/images/Homework1_slide1.jpeg)
-![Slide2](/NinaAndJess_XRBlog/images/Homework1_slide2.jpeg)
-![Slide3](/NinaAndJess_XRBlog/images/Homework1_slide3.jpeg)
+![Slide1](/NinaAndJess_XRBlog/images/Homework1_slide1.png)
+![Slide2](/NinaAndJess_XRBlog/images/Homework1_slide2.png)
+![Slide3](/NinaAndJess_XRBlog/images/Homework1_slide3.png)

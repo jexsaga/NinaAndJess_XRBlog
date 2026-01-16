@@ -6,14 +6,21 @@
     <description>Recent content on Nina and Jess XR Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Dec 2025 11:00:44 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 15:46:12 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/NinaAndJess_XRBlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lab 2 : Roll-A-Ball EDITTTTTTT</title>
+      <title>LocomotionTechniques</title>
+      <link>http://localhost:1313/NinaAndJess_XRBlog/posts/locomotiontechniques/</link>
+      <pubDate>Fri, 16 Jan 2026 15:46:12 +0100</pubDate>
+      <guid>http://localhost:1313/NinaAndJess_XRBlog/posts/locomotiontechniques/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/NinaAndJess_XRBlog/images/Homework1_slide1.png&#34; alt=&#34;Slide1&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/NinaAndJess_XRBlog/images/Homework1_slide2.png&#34; alt=&#34;Slide2&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/NinaAndJess_XRBlog/images/Homework1_slide3.png&#34; alt=&#34;Slide3&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 2 : Roll-A-Ball</title>
       <link>http://localhost:1313/NinaAndJess_XRBlog/posts/roll-a-ball/</link>
       <pubDate>Tue, 02 Dec 2025 11:00:44 +0100</pubDate>
       <guid>http://localhost:1313/NinaAndJess_XRBlog/posts/roll-a-ball/</guid>
-      <description></description>
+      <description>&lt;p&gt;In this project we learned the basics of using Unity. We followed the tutorial which showed us the structure of VR projects along with how to insert objects into the world.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-setting-up-the-game&#34;&gt;&lt;strong&gt;1 SETTING UP THE GAME&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In setting up the project, we experienced difficulty in getting the correct versions on our individual computers. After getting Unity to work we added the very first objects, like walls, floor and player.&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-moving-the-player&#34;&gt;&lt;strong&gt;2 MOVING THE PLAYER&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In this part, we added a Rigidbody to the Player sphere, using physics engine, we wrote our first script in C# to make the sphere roll using the keyboard.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lab 1 : Intro2Unity</title>
