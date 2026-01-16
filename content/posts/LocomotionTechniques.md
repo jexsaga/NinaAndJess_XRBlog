@@ -1,6 +1,6 @@
 +++
 date = '2026-01-16T15:46:12+01:00'
-draft = true
+draft = false
 title = 'Homework 1 : Locomotion Techniques'
 +++
 
