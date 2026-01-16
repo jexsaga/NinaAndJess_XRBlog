@@ -1,7 +1,7 @@
 +++
 date = '2025-12-02T11:00:44+01:00'
 draft = false
-title = 'Lab 2 : Roll-A-Ball EDITTTTTTT'
+title = 'Lab 2 : Roll-A-Ball'
 +++
 
 In this project we learned the basics of using Unity. We followed the tutorial which showed us the structure of VR projects along with how to insert objects into the world. 
