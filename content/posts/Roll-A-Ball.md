@@ -8,7 +8,7 @@ In this project we learned the basics of using Unity. We followed the tutorial w
 
 **1 SETTING UP THE GAME**
 -
-In seeting up the project, we experienced difficulty in getting the correct versions on our individual computers. After getting Unity to work we added the very first objects, like walls, floor and player.
+In setting up the project, we experienced difficulty in getting the correct versions on our individual computers. After getting Unity to work we added the very first objects, like walls, floor and player.
 
 **2 MOVING THE PLAYER**
 -
@@ -52,6 +52,9 @@ With that, we created and configured UI Text Element to display the count value 
 
 **8 ADDING AI NAVIGATION**
 -
+At the end, we implemented a NavMesh for AI-based enemy navigation, added static and dynamic obstacles to challenge the player, and code win and lose conditions using Unity scripting. 
 
+We encountered some problems during the initial implementation, as the enemy would pass through walls and remain at distance from the player while continuing to follow them. We tried implementing RigidBody, which helped but didn't solve the problem. So we followed the tutorial entirely again, and it worked. We assumed that the connexion between the enemy and some properties was not configured right.
 
-rollballlafinnnnn.mp4
+[ADDING AI NAVIGATION Screenshot](/NinaAndJess_XRBlog/images/rollballlafinnnnn.mp4)
+
