@@ -6,7 +6,8 @@
     
     <title>Locomotion Implementation | Nina and Jess XR Blog</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="1 LOCOMOTION IDEA
+    <meta name="description" content="
+1 LOCOMOTION IDEA
 Our first idea was to create a locomotion technique that is controlled with the position of your arms :
 With the two arms in front of you at the same height, you go forward. If the right hand is higher, you go left and vice versa. If your two arms are behind you, you go backward and if your two arms are in a rest position then you don&rsquo;t move.">
     <meta name="generator" content="Hugo 0.152.2">
@@ -55,7 +56,7 @@ Our first idea was to create a locomotion technique that is controlled with the 
 Our first idea was to create a locomotion technique that is controlled with the position of your arms : With the two arms in front of you at the same height, you go forward. If the right hand is higher, you go left and vice versa. If your two arms are behind you, you go backward and if your two arms are in a rest position then you don’t move.">
   <meta itemprop="datePublished" content="2026-02-06T20:58:55+01:00">
   <meta itemprop="dateModified" content="2026-02-06T20:58:55+01:00">
-  <meta itemprop="wordCount" content="1228">
+  <meta itemprop="wordCount" content="1240">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Locomotion Implementation">
   <meta name="twitter:description" content="1 LOCOMOTION IDEA
@@ -111,14 +112,16 @@ Our first idea was to create a locomotion technique that is controlled with the 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p><strong>1 LOCOMOTION IDEA</strong></p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p><br>
+<strong>1 LOCOMOTION IDEA</strong></p>
 <p>Our first idea was to create a locomotion technique that is controlled with the position of your arms :
 With the two arms in front of you at the same height, you go forward. If the right hand is higher, you go left and vice versa. If your two arms are behind you, you go backward and if your two arms are in a rest position then you don&rsquo;t move.</p>
 <p><img src="/NinaAndJess_XRBlog/images/armsVRsketch.jpeg" alt="First Design"></p>
 <p>When we were thinking about how we could actually implement it, we changed our idea slightly to better fit the project: now we actually use the controller’s triggers for the forward/backward movement. To go left and right we maintained the original idea of raising one arm higher, but we added the idea that the higher your arm is, the faster you rotate. We also added a jump and a boost for extra fun.
 So now, you can move using the index triggers, and jump with the inside buttons clicked at the same time. For the boost, the user just needs to put their two arms up and then they speed straight forward.</p>
 <p><img src="/NinaAndJess_XRBlog/images/second_plan.png" alt="Slides"></p>
-<p><strong>2 STARTING WITH THE CODE</strong></p>
+<p><br>
+<strong>2 FORWARD AND BACKWARD MOVEMENT</strong></p>
 <div style="display: flex; align-items: center; gap: 1rem;">
   <video controls width="50%">
     <source src="/NinaAndJess_XRBlog/images/beginning_source_code.mp4" type="video/mp4">
@@ -143,6 +146,8 @@ So now, you can move using the index triggers, and jump with the inside buttons 
   <p>Here, you cannot "fly" even when the user looks upwards.</p>
 </div>
 <p>We wanted to make it more complex by separating the positive and negative directions for acceleration so that it would feel more natural, but that idea did not inevitably add to the project so we went with the simpler approach.</p>
+<p><br>
+<strong>3 TURNING</strong></p>
 <p>At this stage the user was able to move forward and backward with the triggers, but the forward direction was wherever the user looked. However, we wanted the rotation to be controlled by the arms. Furthermore, this initial implementation caused much motion sickness because as the player moved their head and pulled the right trigger they moved quickly in whatever direction they were looking, so it was hard for the player to get their bearings.</p>
 <p>This was solved when we separated that rotation control from the camera rig. However, this created a problem with our forward and backward movement because now we only moved forward from wherever the player’s initial forward direction was and since rotation was not implemented, once the player turned their body to face the starting line they went backwards, previously their initial forward direction.</p>
 <p>We already knew that in order to create the turning movement we wanted to have an initial y position to detect changes in the arm height. So, we created an auxiliary function to set the initial position of the player. We fixed our previous problem by allowing the user to orient themselves where they would like to go, aka towards the starting line, and then pull the triggers and inside buttons to initialize the set up.</p>
@@ -179,6 +184,8 @@ So now, you can move using the index triggers, and jump with the inside buttons 
     </video>
     <p>Finally, adjust parameters to make the best movement.</p>
 </div>
+<p><br>
+<strong>4 BOOST</strong></p>
 <p>Furthermore, this prepared us to implement the boost where if both hands were above a slightly higher threshold the player’s speed jumped up and they boosted forward.</p>
 <div style="display: flex; align-items: center; gap: 1rem;">
     <p style="width: 50%">Initial attempt.</p>
@@ -194,6 +201,8 @@ So now, you can move using the index triggers, and jump with the inside buttons 
     </video>
     <p style="width: 50%">Faster!!</p>
 </div>
+<p><br>
+<strong>5 JUMP</strong></p>
 <p>We now wanted to implement Jump. As a reminder, our idea for the jump was to make the user able to jump when he clicked on both inside buttons. Our first attempt was to use conditional statements and hardcoding the y position of the player. There were a lot of bugs and we foresaw many issues with this in handling the hill, so we decided to change directions.</p>
 <div style="display: flex; align-items: center; gap: 1rem;">
     <p style="width: 50%">First attempt with adjusting player y position directly.</p>
@@ -209,6 +218,8 @@ So now, you can move using the index triggers, and jump with the inside buttons 
     </video>
     <p style="width: 50%">Needed to change initialization buttons or else this happened.</p>
 </div>
+<p><br>
+<strong>6 GROUND COLLISION</strong></p>
 <p>Undoing our temporary hard-coding of the y direction to prevent flying, we used Unity properties to create collision between the player and the ground as well as adding gravity to the player. This was an exceptionally difficult task because after checking all of the expected values in the rigid body, capsule colliders and mesh colliders we were still unable to fix the issue. Certain combinations of each parameter seemed to work better than others, but nothing worked entirely. Finally, we found that the terrain and interactables had not been placed into the correct layer. So, in changing this our player now moved along the ground and over the hill.</p>
 <div style="display: flex; align-items: center; gap: 1rem;">
     <p style="width: 50%">After correcting rigid body attributes interactibles caused collision.</p>
@@ -239,6 +250,8 @@ So now, you can move using the index triggers, and jump with the inside buttons 
     <p style="width: 50%">The correct implimentation resulted in this.</p>
 </div>
 <p>Lastly, after implementing this we were able to use the rigid body to then create an upward impulse causing the player to jump.</p>
+<p><br>
+<strong>7 ALL TOGETHER</strong></p>
 <p>Our final product:</p>
 <video controls width="100%">
     <source src="/NinaAndJess_XRBlog/images/demo.mp4" type="video/mp4">
