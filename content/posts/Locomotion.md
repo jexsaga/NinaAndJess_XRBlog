@@ -95,49 +95,80 @@ In doing this we were then ready to implement the turning movement with the arms
 
 Furthermore, this prepared us to implement the boost where if both hands were above a slightly higher threshold the player’s speed jumped up and they boosted forward.
 
+<div style="display: flex; align-items: center; gap: 1rem;">
+    <p style="width: 50%">Initial attempt.</p>
+    <video controls width="50%">
+        <source src="/NinaAndJess_XRBlog/images/boooooost.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div style="display: flex; align-items: center; gap: 1rem;">
+    <video controls width="50%">
+        <source src="/NinaAndJess_XRBlog/images/boost_bien_show.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p style="width: 50%">Faster!!</p>
+</div>
+
 We now wanted to implement Jump. As a reminder, our idea for the jump was to make the user able to jump when he clicked on both inside buttons. Our first attempt was to use conditional statements and hardcoding the y position of the player. There were a lot of bugs and we foresaw many issues with this in handling the hill, so we decided to change directions.
 
+<div style="display: flex; align-items: center; gap: 1rem;">
+    <p style="width: 50%">First attempt with adjusting player y position directly.</p>
+    <video controls width="50%">
+        <source src="/NinaAndJess_XRBlog/images/jump_inifiniiiii_et_bugs.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div style="display: flex; align-items: center; gap: 1rem;">
+    <video controls width="50%">
+        <source src="/NinaAndJess_XRBlog/images/jump_on_initialization_bug.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p style="width: 50%">Needed to change initialization buttons or else this happened.</p>
+</div>
+
 Undoing our temporary hard-coding of the y direction to prevent flying, we used Unity properties to create collision between the player and the ground as well as adding gravity to the player. This was an exceptionally difficult task because after checking all of the expected values in the rigid body, capsule colliders and mesh colliders we were still unable to fix the issue. Certain combinations of each parameter seemed to work better than others, but nothing worked entirely. Finally, we found that the terrain and interactables had not been placed into the correct layer. So, in changing this our player now moved along the ground and over the hill.
+
+
+<div style="display: flex; align-items: center; gap: 1rem;">
+    <p style="width: 50%">After correcting rigid body attributes interactibles caused collision.</p>
+    <video controls width="50%">
+        <source src="/NinaAndJess_XRBlog/images/cant_go_through_start.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div style="display: flex; align-items: center; gap: 1rem;">
+    <video controls width="50%">
+        <source src="/NinaAndJess_XRBlog/images/weird_collision_affects.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p style="width: 50%">Certain parameter selections cause random bugs like this.</p>
+</div>
+<div style="display: flex; align-items: center; gap: 1rem;">
+    <p style="width: 50%">Adjusting capsule collider caused us to tip over.</p>
+    <video controls width="50%">
+        <source src="/NinaAndJess_XRBlog/images/fallen_over.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div style="display: flex; align-items: center; gap: 1rem;">
+    <video controls width="50%">
+        <source src="/NinaAndJess_XRBlog/images/go_over_hill.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p style="width: 50%">The correct implimentation resulted in this.</p>
+</div>
+
 
 Lastly, after implementing this we were able to use the rigid body to then create an upward impulse causing the player to jump.
 
 
+Our final product:
+
 <video controls width="100%">
-  <source src="/NinaAndJess_XRBlog/images/boooooost.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video controls width="100%">
-  <source src="/NinaAndJess_XRBlog/images/boost_bien_show.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video controls width="100%">
-  <source src="/NinaAndJess_XRBlog/images/cant_go_through_start.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video controls width="100%">
-  <source src="/NinaAndJess_XRBlog/images/fallen_over.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video controls width="100%">
-  <source src="/NinaAndJess_XRBlog/images/jump_inifiniiiii_et_bugs.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video controls width="100%">
-  <source src="/NinaAndJess_XRBlog/images/jump_inifiniiiii.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video controls width="100%">
-  <source src="/NinaAndJess_XRBlog/images/jump_on_initialization_bug.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video controls width="100%">
-  <source src="/NinaAndJess_XRBlog/images/weird_collision_affects.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+    <source src="/NinaAndJess_XRBlog/images/demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
 </video>
 
 
-
-<video controls width="100%">
-  <source src="/NinaAndJess_XRBlog/images/forward_backward_follow_look_at.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+(This video is not the best run. It is to demonstrate the controls.)
