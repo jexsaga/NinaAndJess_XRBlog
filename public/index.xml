@@ -6,8 +6,15 @@
     <description>Recent content on Nina and Jess XR Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jan 2026 10:57:36 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 20:58:55 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/NinaAndJess_XRBlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Locomotion Implementation</title>
+      <link>http://localhost:1313/NinaAndJess_XRBlog/posts/locomotion/</link>
+      <pubDate>Fri, 06 Feb 2026 20:58:55 +0100</pubDate>
+      <guid>http://localhost:1313/NinaAndJess_XRBlog/posts/locomotion/</guid>
+      <description>&lt;p&gt;Our first idea was to create a locomotion technique that is controlled with the position of your arms :&#xA;With the two arms in front of you at the same height, you go forward. If the right hand is higher, you go left and vice versa. If your two arms are behind you, you go backward and if your two arms are in a rest position then you don&amp;rsquo;t move.&#xA;&amp;mdash;&amp;ndash;photo du premier dessin&amp;mdash;&amp;ndash;&#xA;When we were thinking about how we could actually implement it, we changed our idea slightly to better fit the project: now we actually use the controller’s triggers for the forward/backward movement. To go left and right we maintained the original idea of raising one arm higher, but we added the idea that the higher your arm is, the faster you rotate. We also added a jump and a boost for extra fun.&#xA;&amp;mdash;&amp;ndash;photos des dessins&amp;mdash;-&#xA;So now, you can move using the index triggers, and jump with the inside buttons clicked at the same time. For the boost, the user just needs to put their two arms up and then they speed straight forward.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>ArmControl</title>
       <link>http://localhost:1313/NinaAndJess_XRBlog/posts/armcontrol/</link>
@@ -20,7 +27,7 @@
       <link>http://localhost:1313/NinaAndJess_XRBlog/posts/locomotiontechniques/</link>
       <pubDate>Fri, 16 Jan 2026 15:46:12 +0100</pubDate>
       <guid>http://localhost:1313/NinaAndJess_XRBlog/posts/locomotiontechniques/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/NinaAndJess_XRBlog/images/Homework1_slide1.png&#34; alt=&#34;Slide1&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/NinaAndJess_XRBlog/images/Homework1_slide2.png&#34; alt=&#34;Slide2&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/NinaAndJess_XRBlog/images/Homework1_slide3.png&#34; alt=&#34;Slide3&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;The following are three locomotive techniques in VR that we created and presented. Each slide contains a discription and evaluation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/NinaAndJess_XRBlog/images/Homework1_slide1.png&#34; alt=&#34;Slide1&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/NinaAndJess_XRBlog/images/Homework1_slide2.png&#34; alt=&#34;Slide2&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/NinaAndJess_XRBlog/images/Homework1_slide3.png&#34; alt=&#34;Slide3&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lab 2 : Roll-A-Ball</title>
