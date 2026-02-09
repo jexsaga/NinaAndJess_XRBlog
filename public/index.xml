@@ -16,6 +16,13 @@
       <description>&lt;p&gt;&lt;strong&gt;1 LOCOMOTION IDEA&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Our first idea was to create a locomotion technique that is controlled with the position of your arms :&#xA;With the two arms in front of you at the same height, you go forward. If the right hand is higher, you go left and vice versa. If your two arms are behind you, you go backward and if your two arms are in a rest position then you don&amp;rsquo;t move.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Lab 3 : VR in Unity</title>
+      <link>http://localhost:1313/NinaAndJess_XRBlog/posts/roll_a_ball_vr/</link>
+      <pubDate>Wed, 04 Feb 2026 22:16:25 +0100</pubDate>
+      <guid>http://localhost:1313/NinaAndJess_XRBlog/posts/roll_a_ball_vr/</guid>
+      <description>&lt;p&gt;At the beginning of the project, we followed the tutorial directly inside the headset and connected it to Jessica’s Meta account.&lt;/p&gt;&#xA;&lt;p&gt;We first attempted to follow the tutorial provided in the course slides. However, we were using a more recent version of Unity and our headset model differed slightly from the one used in the tutorial. Because of these incompatibilities, we decided instead to follow an official tutorial specifically designed for the Meta Quest:&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>ArmControl</title>
       <link>http://localhost:1313/NinaAndJess_XRBlog/posts/armcontrol/</link>
       <pubDate>Tue, 20 Jan 2026 10:57:36 +0100</pubDate>
