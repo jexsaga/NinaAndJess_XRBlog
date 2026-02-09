@@ -89,13 +89,6 @@ In doing this we were then ready to implement the turning movement with the arms
         Your browser does not support the video tag.
     </video>
 </div>
-<div style="display: flex; align-items: center; gap: 1rem;">
-    <video controls width="50%">
-        <source src="/NinaAndJess_XRBlog/images/show_orieving.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <p>Finally, adjust parameters to make the best movement.</p>
-</div>
 
 
 \
