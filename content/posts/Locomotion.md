@@ -135,7 +135,7 @@ We now wanted to implement Jump. As a reminder, our idea for the jump was to mak
         <source src="/NinaAndJess_XRBlog/images/jump_on_initialization_bug.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <p style="width: 50%">Needed to change initialization buttons or else this happened.</p>
+    <p style="width: 50%">After getting a good jump. We needed to change initialization buttons to prevent jumping everytime.</p>
 </div>
 
 
