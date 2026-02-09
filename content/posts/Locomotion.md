@@ -1,6 +1,6 @@
 +++
 date = '2026-02-06T20:58:55+01:00'
-draft = true
+draft = false
 title = 'Locomotion Implementation'
 +++
 
