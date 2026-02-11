@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/NinaAndJess_XRBlog/posts/locomotion/</loc>
-    <lastmod>2026-02-06T20:58:55+01:00</lastmod>
+    <loc>http://localhost:1313/NinaAndJess_XRBlog/posts/finalslides/</loc>
+    <lastmod>2026-02-11T13:25:30+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/NinaAndJess_XRBlog/</loc>
-    <lastmod>2026-02-06T20:58:55+01:00</lastmod>
+    <lastmod>2026-02-11T13:25:30+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/NinaAndJess_XRBlog/posts/</loc>
+    <lastmod>2026-02-11T13:25:30+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/NinaAndJess_XRBlog/posts/locomotion/</loc>
     <lastmod>2026-02-06T20:58:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/NinaAndJess_XRBlog/posts/roll_a_ball_vr/</loc>
